@@ -8,7 +8,6 @@ import '../widgets/train_block_widget.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
-
   final String title;
 
   @override
@@ -19,6 +18,7 @@ class _MyHomePageState extends State<MyHomePage> {
   late final TextEditingController _textEditingController;
   final GlobalKey _formKey = GlobalKey<FormState>();
   late final ScrollController _scrollController;
+
   @override
   void initState() {
     _textEditingController = TextEditingController();
@@ -285,7 +285,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     },
                   ),
                 ),
-
                 const SizedBox(height: 30),
               ],
             ),
